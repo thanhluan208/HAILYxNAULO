@@ -1,0 +1,34 @@
+.btn
+{
+    border: 2px solid #41f321;
+    margin:10px;
+    display: inline-block;
+    text-decoration: none;
+    color:#41f321;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+
+.dance
+{
+    font-family: 'Dancing Script', cursive;
+    left:50%;
+    font-size: 50px;
+}
+
+
+.btn:hover,
+.btn:focus
+{
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2rem rgba(255, 255, 255,0)!important;
+}
+@keyframes pulse
+{
+    0%
+    {
+        box-shadow: 0 0 0 0 adjust-hue(#02f52b, 45deg) !important;
+    }
+}
