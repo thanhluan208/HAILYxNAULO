@@ -53,9 +53,12 @@
     transform: rotateX(0deg);
     transition:1s
 }
-.cardy:hover .fronty
-{
-    transform: rotateX(-180deg);
+@media only screen and (min-width: 640px)
+{   
+    .cardy:hover .fronty
+    {
+        transform: rotateX(-180deg);
+    }
 }
 .cardy .backy
 {
