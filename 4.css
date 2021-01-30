@@ -53,7 +53,7 @@
     transform: rotateX(0deg);
     transition:1s
 }
-@media only screen and (max-width: 640px)
+@media only screen and (min-width: 640px)
 {   
     .cardy:hover .fronty
     {
@@ -75,9 +75,12 @@
     justify-content: center;
     align-items: center;
 }
-.cardy:hover .backy
+@media only screen and (min-width: 640px)
 {
-    transform: rotateX(0deg);
+    .cardy:hover .backy
+    {
+        transform: rotateX(0deg);
+    }
 }
 .cardy .backy .details
 {
